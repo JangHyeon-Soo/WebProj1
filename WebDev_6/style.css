@@ -3,3 +3,91 @@ h1{
     font-size: 100 px;
     background-color: blue;
 }
+
+
+
+.container
+{
+    width: 900px;
+    height: 900px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    text-align: center;
+    background-image: url(./stylish-hexagonal-line-pattern-background/19742.jpg);
+    background-repeat: no-repeat round;
+    border: 1px solid black;
+
+}
+
+.head_title
+{
+    background-color: greenyellow;
+}
+
+#main_title
+{
+
+    background-color: cadetblue;
+}
+
+#main_title
+{
+
+    background-color: pink;
+}
+
+a[target="_blank"]
+{
+    font-style: italic;
+    color: aqua;
+    text-decoration:none ;
+}
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: beige;
+}
+
+h1:hover{
+    color: blue;
+}
+
+#btn
+{
+    border: 1px solid black;
+    position: absolute;
+    left: 200px;
+    height: 30px;
+    width: 500px;
+}
+
+#gearIcon:hover
+{
+    animation: rotateGear 2s linear infinite;
+    /*color: white;*/
+}
+
+div #btn:hover button
+{
+    background-color: red;
+    color: blue;
+}
+
+@keyframes rotateGear{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
