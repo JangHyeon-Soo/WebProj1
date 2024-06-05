@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudy_장현수</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <h1>웹화면 구현 수업의 웹스터디 페이지</h1>
+    <h2>장현수</h2>
+    <p>
+        하나의 문단을 작성할 때는 <em>p태그</em>를 사용합니다
+    </p>
+    <p>안녕하세요, <br>
+        <strong>코딩공부</strong>하기 좋은 날입니다
+    </p>
+    <br>
+    <i class="fa-solid fa-gear"></i>
+    <i class="fa-solid fa-circle-user fa-shake"></i>
+    <hr>
+    <div class="Contents">
+        <dl>
+
+            <dt>영화소개</dt>
+            <dd>
+                영화를 소개하는 부분입니다. 제가
+                소개할 영화는 바로 희대의 명작 "어벤져스 엔드게임"입니다.
+                <hr>
+                <p>
+                    <i>
+                        인피니티 워 이후 절반만 살아남은 지구 마지막 희망이 된
+                        어벤져스 먼저 떠난 그들을 위해 모든 것을 걸었다! 위대한
+                        어벤져스 운명을 바꿀 최후의 전쟁이 펼쳐진다!
+                    </i>
+                </p>
+                <a
+                    href="https://namu.wiki/w/%EC%96%B4%EB%B2%A4%EC%A0%B8%EC%8A%A4:%20%EC%97%94%EB%93%9C%EA%B2%8C%EC%9E%84">
+                    <img src="https://i.namu.wiki/i/-LVsRumRSp3lOnrQ2lPSULH4C789Q9ZsyKYPs7E7DNvQQMYqyYkOTBdTm0F774HNIakXJ6anaqCpchN60z2RxwvOAs0rOled8stdIecREZqylliR8QwPTdky9JgwxGWZTD7xTZAtmVNwUVBlf5hl8Q.webp"
+                        alt="" width="250px" target="_blank">
+                </a>
+            </dd>
+        </dl>
+    </div>
+    <div id="ootd">
+        <dl>
+            <dt>맨체스터 유나이티드</dt>
+            <dd>
+                맨체스터 유나이티드 FC는 영국 잉글랜드 그레이터맨체스터 주의 트래포드를
+                연고로 하는 프로축구 구단이다. 뉴턴 히스 LYR F.C.(Newton Heath LYR F.C.)라는
+                이름으로 창설되었다. 1902년 4월 26일 지금의 이름인 맨체스터 유나이티드 F.C.로
+                개칭하였고, 1910년에는 홈 경기장을 맨체스터 시 동북쪽의 뱅크 스트리트에서 서남쪽의
+                올드 트래포드로 이전했다.
+            </dd>
+            <hr>
+            <img src="https://i.namu.wiki/i/tHd09l2Ur2DrnSkZEjKjzer4rYNw36Rv7fQyvHom7y8miuN7h_5U40NP4eodL_zlli3tZnhb5V2HgvxCk3e4E10kvehjXW1uE5cJkdMdXpS84giil3skrw3hPpbrLOAnXhzkJec9qvLRDJMNO3VyYA.svg"
+                alt="">
+        </dl>
+    </div>
+    <a href="https://www.netflix.com/kr/title/81024821">
+        <div class="Contents">
+            <dl>
+                <dt>넷플릭스 소개 : 삼체</dt>
+                <dd>
+                    1960년대 중국의 한 젊은 여성이 내린 운명적 결정이
+                    시공을 뛰어넘어 현재의 유수 과학자들에게 불가사의한
+                    영향을 미치는 가운데, 절친인 다섯 명의 과학자들이
+                    인류 역사상 가장 거대한 위협에 맞닥뜨리는 넷플릭스
+                    SF 시리즈
+                    <hr>
+                    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMTFfNTMg%2FMDAxNjk5NjgxMjU5NzE0.CdnCVBg7LBakA4DHPg4dflGjeZHbcNSEPHOazGBnNLkg.b70W6AsSOLv8lzR_NBrYly8KjlJDjHBqd-vsWub-Bpsg.JPEG.bpc1356%2F20231111%25A3%25DF142939.jpg&type=sc960_832"
+                        alt="" width="250px" target="_blank">
+                </dd>
+            </dl>
+        </div>
+    </a>
+    <div id="login-form">
+        <form action="">
+            <!-- <label for="loginID">아이디 입력</label> -->
+
+            <input type="text" id="loginID" placeholder="아이디"><br>
+            <input type="password" placeholder="비밀번호" value="7" readonly><br>
+            
+            전화번호 : <input type="tel" disabled><br>
+            숫자 : <input type="number"><br>
+            웹 주소: <input type="url"><br>
+            검색 : <input type="search"><br>
+            이메일 : <input type="email"><br>
+            체크박스 : <input type="checkbox"><br>
+            라디오 버튼 : <input type="radio"><br>
+            파일 첨부 : <input type="file"><br>
+            <!-- onclick="alert('나감')" onmouseout="alert('나감')"-->
+            <input type="button" value="버튼" ><br>
+            <input type="image" id="facebookImg" src="https://i.namu.wiki/i/YvA6ySb4DvwGQi82OFE0zkEo3npHoL3Apctx3SXmnTjakG_T7v4_yWY0eap1XnbYlraXxq8LCSWOHXzHyIhH0A.svg"><br>
+            보이지 않는 히든 : <input type="hidden"><br>
+            날짜 : <input type="date" ><br>    
+            날짜 시간 : <input type="datetime-local"><br>
+            월 : <input type="month"><br>
+            주 : <input type="week"><br>
+            시간 : <input type="time"><br>
+            조절 : <input type="range"><br>
+            색 : <input type="color"><br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="하고 싶은 말 "></textarea><br>
+            <input type="submit" value="로그인"><br>
+            <input type="reset" value="양식 초기화"><br>
+            <fieldset>
+                <legend>문서 서식
+                    
+                </legend>
+                <select name="city" id="city" size="3">
+                    <optgroup label="서울시">
+                      <option value="강북구">강북구</option>
+                      <option value="강남구">강남구</option>
+                      <option value="서초구">서초구</option>
+                    </optgroup>
+                    <optgroup label="경기도 성남시">
+                      <option value="중원구">중원구</option>
+                      <option value="분당구">분당구</option>
+                    </optgroup>
+                  </select>
+            </fieldset>
+            <fieldset>
+                <legend>좋아하는 과일</legend>
+                <input type="checkbox" id="banana" name="banana" value="banana">
+                <label for="banana">banana</label><br>
+                <input type="checkbox" id="apple" name="apple" value="apple">
+                <label for="apple">apple</label><br>
+                <input type="checkbox" id="orange" name="orange" value="orange" checked>
+                <label for="orange">orange</label><br>
+              </fieldset>
+            
+        </form>
+    </div>
+    <div style="width: 600px; text-align: center;">
+        <table  border="1" style="text-align: center;" cellspacing="0" >
+            <tr>
+                <th>번호</th>
+                <th>상품명</th>
+                <th>수량</th>
+                <th>가격</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>콜라</td>
+                <td>2개</td>
+                <td rowspan="3">1,000원</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>사이다</td>
+                <td>2개</td>
+                
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>탄산수</td>
+                <td>3개</td>
+                
+            </tr>
+            <tr>
+                <td>합계</td>
+                <td colspan="3">6,500원</td>
+               
+            </tr>
+        </table>
+        
+        <table width="500px" border="2" cellspacing="3">
+            <caption style="color: red;">제품 주문표</caption>
+            <col style="width: 10%;">
+            <colgroup span="3" style="width: 20%; background-color: skyblue;" ></colgroup>
+            <col style="width: 30%;">
+            <thead>
+                <tr>
+                    <th scope="col">순번</th>
+                    <th>품명</th>
+                    <th>단가</th>
+                    <th>수령</th>
+                    <th>비고</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>합계</td>
+                    <td colspan="4">item</td>
+                </tr>  
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td rowspan="3">item</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                    
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>item</td>
+                    <td>item</td>
+                    <td>item</td>
+                    
+                </tr>
+            </tbody>           
+        </table>
+        <audio src="./src/y2mate.com - I stan U 관객이 될게 I stan U.mp3" controls></audio>
+        <video src="./src/y2mate.com - I stan U 관객이 될게 I stan U_360p.mp4" controls></video>
+    </div>
+    
+
+    
+
+</body>
+
+</html>
